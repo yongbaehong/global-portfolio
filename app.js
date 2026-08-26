@@ -44,6 +44,9 @@ const translations = {
     "skills-cat-tools": "DevOps & Tools",
     "skills-familiar": "Other Tech I Work With:",
 
+    "projects-title": "Featured Projects",
+    "projects-subtitle":
+      "A collection of systems and applications I've developed, from concept to deployment.",
     "project1-title": "Job Finder Web Application (MERN Stack)",
     "project1-desc-1":
       "Architected a full-stack, dynamic job board application featuring user authentication, job posting workflows, and a responsive search interface.",
@@ -100,17 +103,17 @@ const translations = {
     "about-exp-badge": "실무 개발<br>경력 3년 이상",
     "about-heading-text": "글로벌 관점으로 문제를 엔지니어링합니다",
     "about-p1":
-      "서울에 거주하는 소프트웨어 엔지니어로, 최신 웹 애플리케이션 구축에 주력하고 있습니다. 다양한 문화를 가진 다국적 팀원들과 협업한 경험을 통해 열린 의사소통 태도와 기술적 변화에 신속하게 적응하는 능력을 길렀습니다.",
+      "대한민국 평택에 거주하는 소프트웨어 엔지니어로, 최신 웹 애플리케이션 구축에 주력하고 있습니다. 다양한 문화적 환경에서 일한 경험을 통해 원활한 의사소통 태도와 기술에 유연하게 적응하는 능력을 길렀습니다.",
     "about-p2":
       "깔끔하고 유지보수가 쉬운 코드 작성, 성능 최적화, 그리고 직관적인 UI 설계의 중요성을 깊이 이해하고 있습니다. 실제 사용자의 비즈니스 문제를 해결하고 대규모 트래픽에도 유연하게 대처하는 제품 개발을 목표로 삼고 있습니다.",
     "about-label-education": "학력",
-    "about-value-education": "서울대학교 컴퓨터공학 학사 졸업",
+    "about-value-education":
+      "문과대학 행동과학 전문학사, 독학 소프트웨어 엔지니어",
     "about-label-languages": "사용 언어",
     "about-value-languages":
-      "영어 (모국어 수준), 한국어 (기본 - 회화 및 기술 커뮤니케이션 가능)",
+      "영어 (모국어), 한국어 (기본 - 회화 및 기술 커뮤니케이션 가능)",
     "about-label-interests": "주요 전문 역량",
-    "about-value-interests":
-      "SPA 아키텍처, RESTful API 설계, MERN 스택, 성능 분석 및 튜닝",
+    "about-value-interests": "SPA 아키텍처, RESTful API, MERN 스택",
     "about-label-work": "근무 형태",
     "about-value-work": "원격, 하이브리드",
 
@@ -122,29 +125,9 @@ const translations = {
     "skills-cat-tools": "데브옵스 및 도구",
     "skills-familiar": "그 외 다룰 수 있는 기술:",
 
-    "exp-title": "경력 사항",
-    "exp-subtitle":
-      "소프트웨어 엔지니어로서 거쳐온 발자취와 핵심 성과를 정리했습니다.",
-    "exp1-role": "시니어 풀스택 엔지니어",
-    "exp1-company": "테크웨이브 글로벌 (TechWave Global), 서울",
-    "exp1-desc":
-      "Next.js 및 Go 기반 글로벌 크로스보더 SaaS 대시보드 개발을 리드했습니다. 데이터베이스 쿼리를 대폭 개선하여 대시보드 응답 지연 시간을 40% 단축시켰고, 애자일 체제 하의 다국적 엔지니어 팀(5명)을 조율했습니다.",
-    "exp2-role": "웹 개발자",
-    "exp2-company": "이노랩스 코리아 (InnoLabs Korea), 서울",
-    "exp2-desc":
-      "기존 레거시 모놀리스 플랫폼 서비스를 React 마이크로 프론트엔드로 재설계했습니다. WebSocket을 적용한 실시간 모니터링 시스템을 도입하고 해외 클라이언트 지원을 위한 서비스 현지화 작업을 담당했습니다.",
-    "exp3-role": "소프트웨어 엔지니어 인턴",
-    "exp3-company": "벤처링크 (VentureLink), 원격 / 미국 본사",
-    "exp3-desc":
-      "Python 기반 내부 업무 자동화 플로우를 구축했습니다. 매일 영어로 진행되는 스탠드업 미팅에 참여하며 프론트엔드 버그 수정 및 GitHub Actions 기반의 자동화 테스트 인프라 환경 구축을 도왔습니다.",
-
     "projects-title": "대표 프로젝트",
     "projects-subtitle":
       "아이디어 기획부터 제품 빌드 및 배포까지 총괄적으로 참여해 온 핵심 프로젝트 리스트입니다.",
-    "filter-all": "전체",
-    "filter-frontend": "프론트엔드",
-    "filter-fullstack": "풀스택",
-    "filter-devops": "데브옵스/API",
 
     "project1-title": "채용 정보 웹 애플리케이션 (MERN 스택)",
     "project1-desc-1":
@@ -167,16 +150,18 @@ const translations = {
       "비즈니스 기회 제안, 프로젝트 관련 논의, 혹은 기술 네트워킹은 언제든지 환영합니다!",
     "contact-info-heading": "연락처 정보",
     "contact-info-text":
-      "현재 풀스택, 프론트엔드 또는 백엔드 엔지니어 정규직 합류 제안을 적극적으로 환영하고 있습니다.",
+      "현재 풀스택, 프론트엔드 또는 백엔드 엔지니어 정규직 기회를 적극적으로 찾고 있습니다. 함께 놀라운 결과물을 만들어 보세요.",
     "contact-label-email": "이메일",
+    "contact-label-phone": "전화 / 카카오톡",
+    "contact-value-phone": "+82 (0)10-9401-5678",
     "contact-label-location": "활동 지역",
-    "contact-value-location": "대한민국 평택 (국외 리로케이션 및 이주 가능)",
+    "contact-value-location": "대한민국 평택 (이주 가능)",
     "contact-form-label-name": "이름",
     "contact-form-label-email": "이메일 주소",
     "contact-form-label-subject": "문의 제목",
     "contact-form-label-message": "문의 내용",
     "contact-form-submit": "메시지 보내기",
-    "footer-rights": "All rights reserved.",
+    "footer-rights": "모든 권리 보유.",
   },
 };
 
