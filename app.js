@@ -19,7 +19,7 @@ const translations = {
 
     "about-title": "About Me",
     "about-subtitle": "My journey, values, and why we should work together.",
-    "about-exp-badge": "Years of<br>Experience",
+    "about-exp-badge": "Stack &<br>Modern Web",
     "about-heading-text": "Engineering solutions with a global perspective",
     "about-p1":
       "I am a software engineer based in Pyeongtaek, South Korea, specializing in building modern web applications. With experience working in multicultural environments, I have developed a strong communication mindset and an adaptable approach to technology.",
@@ -100,18 +100,18 @@ const translations = {
     "about-title": "소개",
     "about-subtitle":
       "제 커리어 여정과 가치관, 그리고 저와 함께 일해야 하는 이유를 소개합니다.",
-    "about-exp-badge": "실무 개발<br>경력 3년 이상",
-    "about-heading-text": "글로벌 관점으로 문제를 엔지니어링합니다",
+    "about-exp-badge": "스택 &<br>최신 웹",
+    "about-heading-text": "글로벌 관점으로 엔지니어링 솔루션을 만듭니다",
     "about-p1":
       "대한민국 평택에 거주하는 소프트웨어 엔지니어로, 최신 웹 애플리케이션 구축에 주력하고 있습니다. 다양한 문화적 환경에서 일한 경험을 통해 원활한 의사소통 태도와 기술에 유연하게 적응하는 능력을 길렀습니다.",
     "about-p2":
       "깔끔하고 유지보수가 쉬운 코드 작성, 성능 최적화, 그리고 직관적인 UI 설계의 중요성을 깊이 이해하고 있습니다. 실제 사용자의 비즈니스 문제를 해결하고 대규모 트래픽에도 유연하게 대처하는 제품 개발을 목표로 삼고 있습니다.",
     "about-label-education": "학력",
     "about-value-education":
-      "문과대학 행동과학 전문학사, 독학 소프트웨어 엔지니어",
+      "문과대학 행동과학 전문학사, 독학으로 공부한 소프트웨어 엔지니어",
     "about-label-languages": "사용 언어",
     "about-value-languages":
-      "영어 (모국어), 한국어 (기본 - 회화 및 기술 커뮤니케이션 가능)",
+      "영어 (모국어), 한국어 (기초 - 일상 회화 및 기술 커뮤니케이션 가능)",
     "about-label-interests": "주요 전문 역량",
     "about-value-interests": "SPA 아키텍처, RESTful API, MERN 스택",
     "about-label-work": "근무 형태",
